@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: nunito;
+}
+body{
+    /* background: #EFEEF4; */
+    background: #EFE8F1;
+    /* font-family: sans-serif; */
+}
+
+.env{
+    width: 100vw;
+    height: 100vh;
+    border: 1.5px solid#000;
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+.con{
+    width: 80%;
+    height: 90%;
+    /* border: 1.5px solid grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center; border-radius: 25px;
+    background: #EFEEF4;
+
+
+}
+
+.box{
+    width: 48%;
+    height: 96%;
+    /* border: 1px solid purple; */
+    border-radius: 23px;
+}
+
+.box:nth-child(1){
+    background-image: url(image/setup.jpeg);
+    background-size: cover;
+    border: 5px solid #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+input{
+    width: 70%;
+    /* height: 30px; */
+    /* top right bottom left */
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    background: #fcfcfc;
+    border: 1px solid #fcfcfc;
+    outline: none;
+    border-radius: 0.5rem;
+
+}
+
+.button{
+    width: 70%;
+    background: #F46964;
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: #f58;
+}
+hr{
+    border: 1px solid white;
+}
+
+a{
+    text-align: end;
+    text-decoration: none;
+    /* display: flex;
+    justify-content: end; */
+}
+.logos{
+    width: 80%;
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.logos img{
+    width: 30px;
+    height: 30px;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+}
