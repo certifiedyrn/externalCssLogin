@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
 </head>
-<body>
+
+<body id="body">
     <div class="env">
-        <div class="con">
-            <div class="box"></div>
+        <div class="page2-con">
+            <form action="">
+                <h2>Login</h2>
+                <input type="text" placeholder="Email ID">
+                <input type="password" placeholder="Password">
+                <div style="width: 90%; display: flex; justify-content: space-between;">
+                    <div style="display: flex; justify-content: space-evenly; border: 0px solid red; height: inherit;">
+                        <input type="checkbox" style="height: 10px; width: auto;" name="" id="remember">
+                        <label for="remember" style="color: white;">Remember me</label>
+                    </div>
+                    <a href="">Forgot Password</a>
+                </div>
+                <input type="submit" style="background: #fff; font-size: 1rem; color: #000;" value="Login">
+                <p>Don't have an account? <a href="">Register</a></p>
+
+            </form>
         </div>
-       </div>   
+    </div>
 </body>
+
 </html>

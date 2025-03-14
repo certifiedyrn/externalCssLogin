@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: nunito;
+}
+
+#body{
+    background-image: url(../../image/setup.jpeg);
+    background-size: auto;
+}
+.env{
+    width: 100vw;
+    height: 100vh;
+    border: 1.5px solid#000;
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+.page2-con {
+    width: 50%;
+    
+    border: 1px solid #fff;
+    backdrop-filter: blur(0.8rem);
+    border-radius: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 90%;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+    margin: 0.5rem 0 0.5rem 0;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    padding: 1rem 0 1rem 0;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+p{
+    padding: 1rem 0 1rem 0;
+    color: #fff;
+}
